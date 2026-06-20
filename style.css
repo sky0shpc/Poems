@@ -1,0 +1,344 @@
+/* ==========================================================================
+   Global Styles
+   ========================================================================== */
+
+:root {
+  /* Color tokens */
+  --bg-top: #f2e6fb;
+  --bg-bottom: #e2c9f7;
+  --lavender-deep: #a87fdb;
+  --lavender-mid: #c9a3eb;
+  --lavender-soft: #ddc1f5;
+  --lavender-card: #d2acf0;
+  --lavender-card-inner: #e3c9f8;
+  --ink: #4a3163;
+  --ink-soft: #6b4f8a;
+  --white-glow: rgba(255, 255, 255, 0.55);
+  --shadow-soft: rgba(120, 70, 160, 0.18);
+  --shadow-hover: rgba(120, 70, 160, 0.3);
+  --focus-glow: rgba(168, 127, 219, 0.55);
+
+  /* Type scale */
+  --font-display: 'Caveat', cursive;
+  --font-body: 'Itim', sans-serif;
+
+  --poem-font-size: 13px;
+  --container-max: 450px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(160deg, var(--bg-top) 0%, var(--bg-bottom) 100%);
+  font-family: var(--font-body);
+  color: var(--ink);
+  overflow-x: hidden;
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Fade in page background on load */
+body {
+  animation: bodyFadeIn 0.9s ease-out;
+}
+
+@keyframes bodyFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--lavender-mid);
+  border-radius: 10px;
+  border: 2px solid var(--bg-top);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--lavender-deep);
+}
+
+/* Decorative blurred lavender shapes (desktop ambiance) */
+.bg-blob {
+  position: fixed;
+  border-radius: 50%;
+  filter: blur(70px);
+  opacity: 0.55;
+  z-index: 0;
+  pointer-events: none;
+}
+.blob-1 {
+  width: 360px;
+  height: 360px;
+  background: var(--lavender-deep);
+  top: -120px;
+  left: -120px;
+}
+.blob-2 {
+  width: 300px;
+  height: 300px;
+  background: var(--lavender-soft);
+  bottom: -100px;
+  right: -100px;
+}
+.blob-3 {
+  width: 240px;
+  height: 240px;
+  background: var(--lavender-mid);
+  top: 40%;
+  right: -160px;
+}
+
+@media (max-width: 600px) {
+  .bg-blob { display: none; }
+}
+
+.page {
+  position: relative;
+  z-index: 1;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+.title-block {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.title-line {
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--ink);
+  margin: 0;
+  line-height: 1.15;
+  font-size: 36px;
+  letter-spacing: 0.3px;
+
+  /* Title softly fades and slides upward on load */
+  opacity: 0;
+  transform: translateY(14px);
+  animation: titleRise 0.9s ease-out forwards;
+}
+
+.title-line-accent {
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--lavender-deep);
+  margin-top: 2px;
+  animation-delay: 0.15s;
+}
+
+@keyframes titleRise {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 600px) {
+  .title-line { font-size: 44px; }
+  .title-line-accent { font-size: 46px; }
+}
+
+/* ==========================================================================
+   Card Styling
+   ========================================================================== */
+
+.poems-container {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.poem-card {
+  position: relative;
+  background: linear-gradient(160deg, var(--lavender-card) 0%, var(--lavender-mid) 100%);
+  border-radius: 32px;
+  padding: 18px 16px 16px;
+  box-shadow: 0 8px 24px var(--shadow-soft);
+  transition: box-shadow 300ms ease, transform 300ms ease;
+
+  /* Initial load state -- animated in via JS-added class */
+  opacity: 0;
+  transform: scale(0.95) translateY(10px);
+}
+
+.poem-card.card-revealed {
+  animation: cardReveal 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes cardReveal {
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Subtle ambient float once revealed and settled */
+.poem-card.card-floating {
+  animation: cardFloat 5.5s ease-in-out infinite;
+}
+
+@keyframes cardFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+/* Desktop hover */
+@media (hover: hover) {
+  .poem-card:hover {
+    transform: translateY(-3px) scale(1.012);
+    box-shadow: 0 14px 32px var(--shadow-hover);
+  }
+}
+
+/* Date badge, top right */
+.date-badge {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  background: var(--white-glow);
+  color: var(--ink-soft);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-family: var(--font-body);
+}
+
+/* Poem text area */
+.poem-body-wrap {
+  background: var(--lavender-card-inner);
+  border-radius: 24px;
+  margin-top: 26px;
+  overflow: hidden;
+  transition: max-height 600ms cubic-bezier(0.65, 0, 0.35, 1);
+  max-height: 132px;
+}
+
+.poem-card.expanded .poem-body-wrap {
+  max-height: 1400px;
+}
+
+.poem-text {
+  font-family: var(--font-body);
+  font-size: var(--poem-font-size);
+  line-height: 1.85;
+  color: var(--ink);
+  text-align: center;
+  white-space: pre-line;
+  padding: 20px 16px;
+  margin: 0;
+  opacity: 0.55;
+  transition: opacity 500ms ease-in-out;
+}
+
+.poem-card.expanded .poem-text {
+  opacity: 1;
+}
+
+@media (min-width: 600px) {
+  .poem-text { font-size: 15px; }
+}
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+.expand-btn {
+  display: block;
+  width: 100%;
+  margin-top: 16px;
+  padding: 12px 0;
+  border: none;
+  border-radius: 999px;
+  background: var(--white-glow);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  transition: background 300ms ease, box-shadow 300ms ease, transform 200ms ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.expand-btn:hover {
+  background: #ffffff;
+}
+
+.expand-btn:active {
+  transform: scale(0.97);
+}
+
+/* Soft glow around focused buttons -- accessibility + premium feel */
+.expand-btn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px var(--focus-glow);
+}
+
+/* ==========================================================================
+   Responsive Design
+   ========================================================================== */
+
+@media (max-width: 380px) {
+  .page { padding: 32px 14px 60px; }
+  .poem-card { padding: 16px 12px 14px; }
+}
+
+@media (min-width: 600px) {
+  .page { padding: 64px 20px 100px; }
+  .poems-container { gap: 32px; }
+  .poem-card { padding: 22px 22px 20px; }
+}
+
+/* ==========================================================================
+   Animations -- scroll reveal for cards entering viewport later
+   ========================================================================== */
+
+.poem-card.scroll-hidden {
+  opacity: 0;
+  transform: translateY(24px);
+}
+
+.poem-card.scroll-visible {
+  animation: scrollFadeIn 0.7s ease-out forwards;
+}
+
+@keyframes scrollFadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+  .poem-card.card-floating {
+    animation: none;
+  }
+}
