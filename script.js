@@ -66,8 +66,9 @@ const poems = [
       "I love you to the moon and back babe\n" +
       "you became the person\n" +
       "I truly cannot imagine my life without\n" +
+       "long ago...\n" +
       "\n" +
-      "yet somehow\n" +
+      "yet somehow until now\n" +
       "it still feels like I am falling for you\n" +
       "more and more every day\n" +
       "as if my heart keeps discovering\n" +
@@ -104,6 +105,8 @@ const poems = [
       "if I had to choose again\n" +
       "I would still choose you\n" +
       "every single time\n" +
+      "even after all our struggles\n" +
+      "after all of our problems\n" +
       "\n" +
       "because meeting you\n" +
       "was one of the most beautiful things\n" +
