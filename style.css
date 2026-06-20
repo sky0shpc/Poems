@@ -106,6 +106,84 @@ body {
   .bg-blob { display: none; }
 }
 
+/* Decorative purple tulips */
+.tulip-field {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.tulip {
+  position: absolute;
+  width: 60px;
+  height: 100px;
+  opacity: 0.5;
+  transform-origin: bottom center;
+}
+
+.tulip-1 {
+  left: 4%;
+  bottom: -6px;
+  width: 56px;
+  animation: tulipSway 6s ease-in-out infinite;
+}
+.tulip-2 {
+  right: 6%;
+  bottom: 10px;
+  width: 70px;
+  opacity: 0.4;
+  animation: tulipSway 7.5s ease-in-out infinite 0.6s;
+}
+.tulip-3 {
+  left: -10px;
+  top: 18%;
+  width: 50px;
+  opacity: 0.3;
+  transform: rotate(8deg);
+  animation: tulipSway 8s ease-in-out infinite 1.2s;
+}
+.tulip-4 {
+  right: -14px;
+  top: 55%;
+  width: 64px;
+  opacity: 0.32;
+  transform: rotate(-6deg) scaleX(-1);
+  animation: tulipSway 6.8s ease-in-out infinite 0.3s;
+}
+
+@keyframes tulipSway {
+  0%, 100% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+}
+
+.tulip-3 {
+  animation-name: tulipSwayTilted;
+}
+@keyframes tulipSwayTilted {
+  0%, 100% { transform: rotate(6deg); }
+  50% { transform: rotate(10deg); }
+}
+
+.tulip-4 {
+  animation-name: tulipSwayFlipped;
+}
+@keyframes tulipSwayFlipped {
+  0%, 100% { transform: rotate(-8deg) scaleX(-1); }
+  50% { transform: rotate(-4deg) scaleX(-1); }
+}
+
+@media (max-width: 600px) {
+  .tulip-3, .tulip-4 { display: none; }
+  .tulip-1 { width: 44px; opacity: 0.4; }
+  .tulip-2 { width: 52px; opacity: 0.32; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tulip { animation: none !important; }
+}
+
 .page {
   position: relative;
   z-index: 1;
@@ -236,7 +314,31 @@ body {
 }
 
 .poem-card.expanded .poem-body-wrap {
-  max-height: 1400px;
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+/* Scrollbar only shows once the card is expanded and content overflows */
+.poem-card.expanded .poem-body-wrap::-webkit-scrollbar {
+  width: 6px;
+}
+.poem-card.expanded .poem-body-wrap::-webkit-scrollbar-track {
+  background: transparent;
+}
+.poem-card.expanded .poem-body-wrap::-webkit-scrollbar-thumb {
+  background: var(--lavender-deep);
+  border-radius: 10px;
+}
+.poem-body-wrap::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.poem-card.expanded .poem-body-wrap {
+  scrollbar-width: thin;
+  scrollbar-color: var(--lavender-deep) transparent;
+}
+.poem-body-wrap {
+  scrollbar-width: none;
 }
 
 .poem-text {
