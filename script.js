@@ -115,7 +115,180 @@ const poems = [
       "and every day that passes\n" +
       "I find myself loving you\n" +
       "a little more than the day before\n"
+  },
+
+  {
+    date: "30/06/26",
+    text:
+      "I don't really know what I've done to deserve you\n" +
+      "what a normal person like me\n" +
+      "did to get someone like you babe\n" +
+      "\n" +
+      "while reading your message\n" +
+      "I couldn't help but smile like a fool\n" +
+      "a completely smitten fool\n" +
+      "who has fallen completely in love with his baby\n" +
+      "a kind of love that's so loud\n" +
+      "in the most possible way\n" +
+      "\n" +
+      "yes I love you\n" +
+      "and I'll tell the whole world Ranim\n" +
+      "that I love this woman\n" +
+      "and that I am utterly blessed\n" +
+      "to have you in my life\n" +
+      "\n" +
+      "someone so kind\n" +
+      "so gentle and sweet\n" +
+      "and honestly the cutest\n" +
+      "the most perfect being on earth\n" +
+      "\n" +
+      "sometimes I feel like\n" +
+      "I'm excessive with the love\n" +
+      "I'm showing for you\n" +
+      "but the truth is babe\n" +
+      "it's not even a fraction\n" +
+      "of the real love I hold for you\n" +
+      "\n" +
+      "you're the most beautiful person\n" +
+      "I've ever met in my life\n" +
+      "and words will never be able\n" +
+      "to express how I see you\n" +
+      "\n" +
+      "your eyes...\n" +
+      "each time I stare into them\n" +
+      "god...\n" +
+      "I feel like I'm falling\n" +
+      "more and more for you\n" +
+      "\n" +
+      "each time I look into them\n" +
+      "I feel completely smitten\n" +
+      "completely in love\n" +
+      "all over again\n" +
+      "\n" +
+      "and every time you look at me\n" +
+      "the urge to hold you\n" +
+      "and hug you for hours\n" +
+      "becomes too strong to resist\n" +
+      "\n" +
+      "and your hands...\n" +
+      "your touch...\n" +
+      "my hands know yours too well\n" +
+      "I've memorized your touch\n" +
+      "every inch of your skin\n" +
+      "\n" +
+      "every time you hold my hand\n" +
+      "I can't help but feel like\n" +
+      "the happiest man on earth\n" +
+      "\n" +
+      "and honestly\n" +
+      "having you as my partner\n" +
+      "I truly am the happiest man alive\n" +
+      "to have someone so gentle\n" +
+      "calm gorgeous breathtaking\n" +
+      "cute smart and perfect like you\n" +
+      "\n" +
+      "it is with honesty\n" +
+      "from the bottom of my heart\n" +
+      "and with a gravity\n" +
+      "that presses upon every part of my being\n" +
+      "that I confess\n" +
+      "you have replaced\n" +
+      "every former ambition of my life babe\n" +
+      "\n" +
+      "and though I would surrender\n" +
+      "the tranquillity of peace\n" +
+      "and the fair opinion of the world\n" +
+      "I remain haunted\n" +
+      "by the simple truth\n" +
+      "that my heart belongs entirely to you\n" +
+      "\n" +
+      "completely subject\n" +
+      "to your image Ranim\n" +
+      "and as evening falls\n" +
+      "and silence gathers around me\n" +
+      "I linger...\n" +
+      "I wait...\n" +
+      "I smile...\n" +
+      "comforted by the sweet thought\n" +
+      "that I have my little girl\n" +
+      "my stunning princess\n" +
+      "my dazzling elegant queen\n" +
+      "\n" +
+      "about the time you called me\n" +
+      "and my response felt dry\n" +
+      "I'm really sorry baby\n" +
+      "sometimes I mess up\n" +
+      "and don't express myself well\n" +
+      "\n" +
+      "the last thing I ever want\n" +
+      "is to make you sad\n" +
+      "because your smile\n" +
+      "means more to me\n" +
+      "than you'll ever know\n" +
+      "\n" +
+      "you're not just the woman I love\n" +
+      "you're my safe place\n" +
+      "my favorite person\n" +
+      "the first one I want to talk to\n" +
+      "every morning\n" +
+      "and the last one I want to hear\n" +
+      "before I fall asleep\n" +
+      "\n" +
+      "I hope years from now\n" +
+      "I'll still look at you\n" +
+      "the exact same way I do today\n" +
+      "still getting butterflies\n" +
+      "every time you smile at me\n" +
+      "\n" +
+      "still reaching for your hand\n" +
+      "without thinking\n" +
+      "still finding new reasons\n" +
+      "to fall in love with you\n" +
+      "over and over again\n" +
+      "\n" +
+      "because loving you\n" +
+      "doesn't feel like something\n" +
+      "I have to do\n" +
+      "it feels as natural\n" +
+      "as breathing\n" +
+      "as effortless\n" +
+      "as my heart beating\n" +
+      "\n" +
+      "every day I spend loving you\n" +
+      "makes me realize\n" +
+      "I have so much more love\n" +
+      "left to give you\n" +
+      "\n" +
+      "thank you for choosing me\n" +
+      "thank you for trusting me\n" +
+      "with your heart\n" +
+      "thank you for making my life brighter\n" +
+      "simply by being in it\n" +
+      "\n" +
+      "if I had to live this life\n" +
+      "a thousand times over\n" +
+      "I'd still search for you\n" +
+      "every single time\n" +
+      "\n" +
+      "I'd still fall in love\n" +
+      "with your beautiful eyes\n" +
+      "your gentle heart\n" +
+      "your laugh\n" +
+      "your touch\n" +
+      "\n" +
+      "and I'd still choose you\n" +
+      "without a second of hesitation\n" +
+      "\n" +
+      "I love you more\n" +
+      "than these words\n" +
+      "will ever be able to say babe\n" +
+      "and no matter\n" +
+      "how many times I tell you\n" +
+      "it will never be enough\n" +
+      "to describe what you truly mean to me\n"
   }
+
+
 ];
 
 // ==========================================================================
