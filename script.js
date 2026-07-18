@@ -286,7 +286,7 @@ const poems = [
       "how many times I tell you\n" +
       "it will never be enough\n" +
       "to describe what you truly mean to me\n"
-  }
+  },
   {
   date: "18/07/26",
   text: 
