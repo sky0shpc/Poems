@@ -43,6 +43,15 @@ body {
   overflow-x: hidden;
   position: relative;
   -webkit-tap-highlight-color: transparent;
+
+  /* Disable text selection (desktop) */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  /* Disable the mobile long-press callout/highlight menu */
+  -webkit-touch-callout: none;
 }
 
 /* Fade in page background on load */
