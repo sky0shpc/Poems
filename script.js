@@ -646,10 +646,34 @@ function setupScrollReveal() {
 }
 
 // ==========================================================================
+// Prevent copying / selecting text
+// ==========================================================================
+function setupCopyProtection() {
+  // Block right-click / long-press context menu
+  document.addEventListener("contextmenu", (e) => e.preventDefault());
+
+  // Block copy & cut events (covers Ctrl+C / Cmd+C and mobile "Copy" menu item)
+  document.addEventListener("copy", (e) => e.preventDefault());
+  document.addEventListener("cut", (e) => e.preventDefault());
+
+  // Block common "select all" / dev tools shortcuts on desktop
+  document.addEventListener("keydown", (e) => {
+    const key = e.key.toLowerCase();
+    if ((e.ctrlKey || e.metaKey) && (key === "c" || key === "a" || key === "x" || key === "u")) {
+      e.preventDefault();
+    }
+    if (key === "f12") {
+      e.preventDefault();
+    }
+  });
+}
+
+// ==========================================================================
 // Init
 // ==========================================================================
 document.addEventListener("DOMContentLoaded", () => {
   renderPoems();
   revealCardsInSequence();
   setupScrollReveal();
+  setupCopyProtection();
 });
