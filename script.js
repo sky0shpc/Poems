@@ -287,6 +287,238 @@ const poems = [
       "it will never be enough\n" +
       "to describe what you truly mean to me\n"
   }
+  {
+  date: "18/07/26",
+  text: 
+    "How can I make it stop\n" +
+    "Seriously how can I make you stop crying\n" +
+    "I can't handle that you cry every night\n" +
+    "I was made for loving you\n" +
+    "For loving those eyes of yours\n" +
+    "For protecting them and making them as happy as ever\n" +
+    "\n" +
+    "Yet every time you tell me that you're crying\n" +
+    "I can't help but feel sadness\n" +
+    "Feel agony and despair\n" +
+    "As if my soul is tearing apart\n" +
+    "\n" +
+    "I can't help knowing that my little girl is crying\n" +
+    "Baby I love you more than anything\n" +
+    "And knowing that you're crying\n" +
+    "Makes me feel as if the stars themselves have dimmed\n" +
+    "As if the moon has lost its glow\n" +
+    "As if the earth beneath me trembles with sorrow\n" +
+    "And the air I breathe carries nothing but ache\n" +
+    "\n" +
+    "Every time you say you're crying\n" +
+    "I just want to be close to you\n" +
+    "Hug you and put your head on my lap\n" +
+    "And comfort my little baby\n" +
+    "I love you Ranim so much it hurts\n" +
+    "\n" +
+    "I wish I could steal every tear\n" +
+    "Before it ever reached your cheeks\n" +
+    "Take every burden you've ever carried\n" +
+    "And place it onto my own shoulders instead and carry it for you\n" +
+    "\n" +
+    "If pain had a price\n" +
+    "I swear I'd pay it gladly\n" +
+    "If sadness could be divided\n" +
+    "I'd beg for every piece that belongs to you to be given to me my love\n" +
+    "\n" +
+    "Because the thought of you hurting\n" +
+    "Hurts me in ways I cannot even explain\n" +
+    "It's a strange kind of pain\n" +
+    "Watching the person you love the most\n" +
+    "Fight battles you cannot see\n" +
+    "Knowing that all you want to do\n" +
+    "Is wrap them in your arms\n" +
+    "And somehow convince the world\n" +
+    "To be kinder to them\n" +
+    "\n" +
+    "I love you in a way that would concern a doctor\n" +
+    "And thrill a poet\n" +
+    "I love you to the point that in every other universe\n" +
+    "I'd find that version of me loving you\n" +
+    "In every other version of you baby\n" +
+    "\n" +
+    "Even if the stars were different\n" +
+    "Even if the oceans flowed another way\n" +
+    "Even if I had another name\n" +
+    "Or another face\n" +
+    "I'd still find you somehow\n" +
+    "And I'd still fall hopelessly in love with you\n" +
+    "\n" +
+    "Because my heart\n" +
+    "Has somehow convinced itself\n" +
+    "That you were always meant to be home\n" +
+    "My home where I feel safety and comfort\n" +
+    "\n" +
+    "So tell me my love\n" +
+    "Is there anyway\n" +
+    "Literally anyway I could help you\n" +
+    "Lessen the pain\n" +
+    "Heal the suffering that has been haunting you\n" +
+    "Since the day that I've met you\n" +
+    "Even by a tiny bit\n" +
+    "\n" +
+    "I really care about you and want to know\n" +
+    "If there's a solution\n" +
+    "Tell me it no matter how cliché or niche it seems\n" +
+    "Inform me my love\n" +
+    "\n" +
+    "Tell me if all you need\n" +
+    "Is for me to sit there quietly with you\n" +
+    "I'll do it\n" +
+    "\n" +
+    "Tell me if you need somebody\n" +
+    "To remind you every day\n" +
+    "How beautiful you are\n" +
+    "How worthy you are of love\n" +
+    "How incredible you truly are\n" +
+    "\n" +
+    "I'll tell you until you believe it yourself\n" +
+    "\n" +
+    "Tell me if you need me\n" +
+    "To hold your hand for hours\n" +
+    "Without saying a single word\n" +
+    "Because if silence is what comforts you\n" +
+    "Then silence will become my love language\n" +
+    "\n" +
+    "Tell me if you need to cry on my shoulder\n" +
+    "Until your eyes can't cry anymore\n" +
+    "I'll stay there\n" +
+    "Not for minutes\n" +
+    "Not for hours\n" +
+    "But for as long as it takes\n" +
+    "\n" +
+    "I don't care how difficult it is\n" +
+    "I would never care how long it takes\n" +
+    "Never care how many sleepless nights it costs me\n" +
+    "\n" +
+    "If it means seeing you smile again\n" +
+    "Hearing your laugh\n" +
+    "Then every second would be worth it\n" +
+    "\n" +
+    "Your smile is honestly\n" +
+    "One of the most beautiful things\n" +
+    "I've ever been lucky enough to witness\n" +
+    "\n" +
+    "It isn't just pretty\n" +
+    "It changes everything around it\n" +
+    "\n" +
+    "When you smile\n" +
+    "The world somehow feels softer\n" +
+    "The air feels lighter\n" +
+    "Even the worst days become easier to survive\n" +
+    "\n" +
+    "So when you're crying\n" +
+    "It feels like the world itself has forgotten\n" +
+    "How to be beautiful\n" +
+    "How to shine and be kind\n" +
+    "\n" +
+    "I know I can't magically erase your pain\n" +
+    "I know life doesn't work that way\n" +
+    "\n" +
+    "But if I could be even the smallest reason\n" +
+    "You smile tomorrow instead of crying\n" +
+    "Then I'd feel like I've accomplished something incredible\n" +
+    "\n" +
+    "Because making you happy\n" +
+    "Has become one of the greatest purposes of my life\n" +
+    "\n" +
+    "Not because I have to\n" +
+    "But because I genuinely want to\n" +
+    "\n" +
+    "I want to protect your heart\n" +
+    "The same heart that somehow found room for me\n" +
+    "Despite everything it has been through\n" +
+    "\n" +
+    "I want to remind you\n" +
+    "That you're never fighting alone anymore\n" +
+    "Whatever hurts you\n" +
+    "We'll face it together\n" +
+    "\n" +
+    "Whatever scares you\n" +
+    "I'll stand beside you\n" +
+    "And hold you for as long as you want\n" +
+    "\n" +
+    "Whatever makes you cry\n" +
+    "We'll cry together if I had to\n" +
+    "It doesn't matter at all to me\n" +
+    "As long as i live\n" +
+    "I'll never make you carry it by yourself\n" +
+    "\n" +
+    "I know I can't promise a life without sadness\n" +
+    "I can't promise there won't be difficult days\n" +
+    "\n" +
+    "But I can promise this\n" +
+    "\n" +
+    "You'll never have to face those days alone again\n" +
+    "\n" +
+    "Because I'll be here\n" +
+    "\n" +
+    "When you're laughing\n" +
+    "I'll laugh with you\n" +
+    "\n" +
+    "When you're excited\n" +
+    "I'll celebrate with you\n" +
+    "And cheer for you\n" +
+    "Support you and push you to your success\n" +
+    "\n" +
+    "When you're scared\n" +
+    "I'll hold your hand\n" +
+    "\n" +
+    "And when you're crying\n" +
+    "\n" +
+    "I'll be right there\n" +
+    "Trying my hardest to remind you\n" +
+    "That you're loved more than you'll ever fully understand\n" +
+    "More that you'll ever comprehend\n" +
+    "\n" +
+    "Sometimes I wonder\n" +
+    "If you truly know how precious you are to me\n" +
+    "\n" +
+    "How every little thing about you\n" +
+    "Has become something I treasure\n" +
+    "\n" +
+    "Your laugh\n" +
+    "Your sleepy voice\n" +
+    "The way your eyes look at me\n" +
+    "The way your hand fits perfectly into mine\n" +
+    "\n" +
+    "The little habits you don't even notice\n" +
+    "\n" +
+    "I cherish every single one of them\n" +
+    "\n" +
+    "You're not just the woman I love\n" +
+    "\n" +
+    "You're my safest place\n" +
+    "My greatest blessing\n" +
+    "My answered prayer\n" +
+    "The person who makes this life feel worth living\n" +
+    "\n" +
+    "So please don't ever think\n" +
+    "That your tears don't matter to me\n" +
+    "\n" +
+    "Every single one of them\n" +
+    "Feels like a tiny crack in my own heart\n" +
+    "\n" +
+    "And if loving you means\n" +
+    "Helping you put those broken pieces back together\n" +
+    "\n" +
+    "Then I'll spend every day of my life doing exactly that\n" +
+    "Because I wasn't made to watch you suffer\n" +
+    "I was made for loving you baby\n" +
+    "To protect you ,to comfort you\n" +
+    "To remind you every single day\n" +
+    "That no matter how dark the night becomes\n" +
+    "You'll never have to walk through it alone again\n" +
+    "Because you'll always have me\n" +
+    "And I'll always have you\n" +
+    "because you're mine\n" +
+    "and i'm yours"
+}
 
 
 ];
